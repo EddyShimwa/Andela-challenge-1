@@ -1,0 +1,92 @@
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+p {
+  margin-bottom: 50px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 100;
+}
+#maindiv {
+  height: 10cm;
+  padding: 100px;
+  background-color: rgb(228, 217, 217);
+  margin-bottom: 0.5px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+#maindiv div {
+  padding: 30px;
+  width: 210px;
+} 
+img {
+  width: 20%;
+}
+
+#div1 {
+  color: white;
+  background-color: hsl(31, 77%, 52%); 
+}
+
+#div1 span {
+  color: hsl(31, 77%, 52%);
+}
+
+#div2 {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+}
+
+#div2 span{
+  color: hsl(184, 100%, 22%);
+}
+#div3 {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+}
+
+#div3 span {
+  color:  hsl(179, 100%, 13%);
+}
+
+span {
+  color: white;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 35px;
+  display: block;
+  font-family: 'Lexend Deca', sans-serif;
+  border: 0.22px solid white;
+  text-align: center;
+  cursor: pointer;
+  width:fit-content;
+  margin-bottom: 0.2%;
+}
+
+span:hover {
+  color: white !important;
+}
+
+#div1 span:hover{
+  background-color: hsl(31, 77%, 52%);
+}
+#div2 span:hover{
+  background-color: hsl(184, 100%, 22%);
+}
+#div3 span:hover{
+  background-color: hsl(179, 100%, 13%);
+}
+ 
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
